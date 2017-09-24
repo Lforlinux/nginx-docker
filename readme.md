@@ -10,7 +10,7 @@ $docker build -t centos7/nginx .
 ## Docker Compose
 
 ```bash
-$docker run -dit -p 80:80 centos7/nginx
+$docker run --name nginx-adp-v1.0 -dit -p 80:80 centos7/nginx
 
 ```
 
