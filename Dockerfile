@@ -12,7 +12,7 @@ RUN yum -y install nginx
 #Working files Definition 
 ADD /files/index.html /usr/share/nginx/html/index.html
 ADD /files/1.html /usr/share/nginx/html/1.html
-ADD /files/1.html /usr/share/nginx/html/2.html
+ADD /files/2.html /usr/share/nginx/html/2.html
 ADD /files/3.html /usr/share/nginx/html/3.html
 
 #Expose Redis port 80 
