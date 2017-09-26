@@ -14,10 +14,10 @@ $docker run --name nginx-adp-v1.0 -dit -p 80:80 centos7/nginx
 
 ```
 
-## Docker Compose
+##Establish SSH Connection  
 
 ```bash
-$docker exec -it  0c90fada5bd9 /bin/bash
+$docker exec -it container-id /bin/bash
 
 ```
 
